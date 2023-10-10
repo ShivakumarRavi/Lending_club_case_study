@@ -4,9 +4,9 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Python Libraries Used Used](#python-libraries-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Contributers](#contributers)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -20,30 +20,26 @@
     -  Data Driven Metrics
     -  Business Driven Metrics
   - Outlier Removal
+  - Visualization
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- If lending club giving the low loan amount with 60 term period with high intrest rate, then it will be defaulted.
+- Lending club have to consider giving loan for the purpose "debt_consolidation" during end of the year.
+- If DTI (Debt To Income) is in the range of "24-30" are the defaulters.
+- If Open Acc (Pre approved loan based of current credit file) is below 15 are the defaulters.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Python Libraries Used
+- numpy
+- pandas
+- matplotlib
+- seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contributers
